@@ -5,7 +5,10 @@ require("dotenv").config()
 app.use(express.urlencoded({extended: true}))
 app.use(express.json())
 
+app.get("/", (req, res) => {
+    res.status(200).json(message = "Heavy Weight");
+})
 
-app.listen(ProcessingInstruction.env.PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log("Go Heavy Or Go Home.")
 })
