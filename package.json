@@ -1,0 +1,24 @@
+{
+  "name": "heavyweight",
+  "version": "1.0.0",
+  "description": "Ecommerce website server code",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PGK16POWERS/HeavyWeight.git"
+  },
+  "author": "Liberia Mazibuko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PGK16POWERS/HeavyWeight/issues"
+  },
+  "homepage": "https://github.com/PGK16POWERS/HeavyWeight#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
